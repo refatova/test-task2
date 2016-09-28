@@ -1,0 +1,2 @@
+insert into Account (id,user_login,user_password,user_name,sault) VALUES (1,'ivan',HASH('SHA256', STRINGTOUTF8('secretmySecretSault'), 1000),'Иван','mySecretSault');
+insert into Account (id,user_login,user_password,user_name,sault) VALUES (2,'john',HASH('SHA256', STRINGTOUTF8('smithmySecretSault'), 1000),'John','mySecretSault');

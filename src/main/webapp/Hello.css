@@ -1,0 +1,130 @@
+/*body {*/
+/*background-color: white;*/
+/*color: black;*/
+/*font-family: Arial, sans-serif;*/
+/*font-size: small;*/
+/*margin: 8px;*/
+/*}*/
+
+#header {
+    background-color: gainsboro;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    text-align: left;
+}
+
+#logoContainer{
+    padding: 10px;
+}
+
+/*#middle {*/
+/*background-color: white;*/
+/*height: 200px;*/
+/*}*/
+
+/*#footer {*/
+/*background-color: white;*/
+/*border-bottom: rgba(101, 101, 101, 0.76);*/
+/*color: black;*/
+/*font-family: Arial, sans-serif;*/
+/*font-size: small;*/
+/*margin: 8px;*/
+/*text-align: center;*/
+/*padding-bottom: 1px;*/
+/*}*/
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: black; /* Цвет линии */
+    color: black; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+}
+
+#content {
+    /*padding: 60px;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    text-align: center;
+
+}
+
+#cont{
+    margin:10%;
+}
+
+
+.qwtverticalPanel {
+    /*font-size: small;*/
+    font-family: Arial;
+    color: green;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.gwt-Label {
+    font-size: small;
+    font-family: Arial;
+    color: black;
+}
+
+#tr {
+    /*padding-bottom: 5px;*/
+    /*padding-top: 5px;*/
+    /*width: 100px;*/
+    text-align: center;
+}
+
+/*#td {*/
+/*padding-right: 5px;*/
+/*padding-left: 5px;*/
+/*height: 50px;*/
+/*}*/
+
+/*.homePage {*/
+/*text-align: left;}*/
+
+/*.labels {*/
+/*text-align: left;*/
+/*}*/
+
+/*.textField{*/
+/*text-align: right;*/
+/*}*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    display: table-row;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.footer {
+    background-color: gainsboro;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+

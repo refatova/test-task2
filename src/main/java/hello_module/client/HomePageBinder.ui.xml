@@ -1,0 +1,12 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:style>
+        .messageStyle { color: black; padding: 5px;}
+        .buttonStyle{margin: 10px;
+            padding: 3px 10px; background: orange; }
+    </ui:style>
+    <g:HTMLPanel>
+        <g:Label ui:field='greetingMessage' styleName="{style.messageStyle}"/>
+        <g:Button ui:field="returnButton" styleName="{style.buttonStyle}"/>
+    </g:HTMLPanel>
+</ui:UiBinder>
